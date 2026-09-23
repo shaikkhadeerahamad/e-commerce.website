@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    gap:20px;
+    padding: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;   
+}
+
+.sub-main{
+    
+    width: 200px;
+    justify-content: center;
+    transition: 0.4s;
+    animation: sub-main 1s;
+}
+
+.sub-main:hover{
+    transform: translateY(-8px);
+}
+
+.main-image{
+    background-color: #f0f0f0;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main-image img{
+    transform: scale(1.05);
+}
